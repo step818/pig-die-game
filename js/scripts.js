@@ -25,12 +25,20 @@ $(document).ready(function() {
         }
   });
 
+  $("#roll").click(function() {
+    var roll = Math.floor((Math.random() * 6) + 1);
+    $("#displayRoll").text("You rolled a " + roll);
+var totalScore1 = 0;
+
+  if (roll === 1){
+    alert("end of your turn");
 
 
+  } else if (roll>1) {
 
-
-
-
-
+      totalScore1 = totalScore1 + roll;
+      $("#totalScore1").text(totalScore1);
+    }
+});
 
 });

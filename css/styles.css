@@ -4,3 +4,19 @@
 .player2 {
   display: none;
 }
+
+
+ img {
+  height: 200px;
+  /*vertical-align: middle;*/
+}
+
+#roll {
+  height: 200px;
+
+}
+
+#displayRoll {
+  text-align: center;
+
+}

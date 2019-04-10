@@ -12,44 +12,56 @@
   <body>
     <div class="container">
       <h1>Pig Die</h1>
-      <form class="name1">
-        <h3>Enter player 1 name here!</h3>
+    <!-- player name inputs -->
+    <div class="row">
+      <div class="col-md-6">
+        <form class="name1">
+          <h4>Enter player 1 name here!</h4>
           <div class="form-group">
             <label for="nameOne">Player 1:</label>
             <input id="nameOne" class="form-control"
              type="text">
             <button class="btn-primary" id="buttonOne">Submit name</button>
           </div>
-      </form>
-
-      <form class="name2"  >
-        <h3>Enter player 2 name here!</h3>
-          <div class="form-group">
-            <label for="nameTwo">Player 2:</label>
-            <input id="nameTwo" class="form-control" type="text">
-            <button class="btn-primary" id="buttonTwo">Submit name</button>
-          </div>
-      </form>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <form class="name2">
+            <h4>Enter player 2 name here!</h4>
+            <div class="form-group">
+              <label for="nameTwo">Player 2:</label>
+              <input id="nameTwo" class="form-control" type="text">
+              <button class="btn-primary" id="buttonTwo">Submit name</button>
+            </div>
+        </form>
+      </div>
+    </div>
+    <!--players + scores-->
       <form class="player1">
         <div class="">
           <h4>Player 1:<span id="player1"></span></h4>
         </div>
-        <div class="scoreOne">Player 1 score:     <span id="totalScore1"></span>
+        <div class="scoreOne">Player 1 score:<span id="totalScore1"></span>
         </div>
-
       </form>
 
       <form class="player2">
         <div class="">
           <h4>Player 2:<span id="player2"></span></h4>
         </div>
-        <div class="scoreTwo">Player 2 score: <span id="totalScore2"></span>
+        <div class="scoreTwo">Player 2 score:<span id="totalScore2"></span>
         </div>
-
       </form>
 
+      <div id="diceStuff">
+          <button class="btn col-md-2 offset-md-5" type="button" id="roll"><img src="img/dice.png"></button>
+        <h3><div class="col-md-2 offset-md-5" id="displayRoll"></div></h3>
+      </div>
 
-
+      <div class="" id="rollTotal">
+        <h3><div class="">Current Roll Total:</div></h3>
+        <button class="btn-primary" id="bankRoll">Hold Roll!</button>
+      </div>
 
 
 
