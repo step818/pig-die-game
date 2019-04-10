@@ -9,10 +9,12 @@
  img {
   height: 200px;
   /*vertical-align: middle;*/
+  /*border-color: white;*/
 }
 
 #roll {
   height: 200px;
+  box-shadow: none;
 
 }
 
