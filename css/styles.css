@@ -1,10 +1,36 @@
+.jumbotron {
+  background-image: url(../img/babyPigs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-position-y: 25%;
+}
+body {
+  background-image: url(../img/luckyPig.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#nameOne {
+background: transparent;
+border-color: white;
+color: white;
+font-family: fantasy;
+}
+#nameTwo {
+background: transparent;
+border-color: white;
+color: white;
+font-family: fantasy;
+}
+
 .player1 {
   display: none;
 }
 .player2 {
   display: none;
 }
-
 
  img {
   height: 200px;
@@ -15,10 +41,23 @@
 #roll {
   height: 200px;
   box-shadow: none;
-
 }
 
 #displayRoll {
   text-align: center;
+}
 
+#diceStuff {
+  display: none;
+  margin-top: 15%;
+}
+
+#rollTotal {
+  vertical-align: bottom;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+#nameRow {
+  text-align: center;
 }
